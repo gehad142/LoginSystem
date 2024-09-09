@@ -1,0 +1,47 @@
+#home {
+    height: 75vh;
+}
+.navbar {
+    position: relative;
+       display: flex;
+        flex-wrap: wrap;
+       align-items: center;
+       justify-content: space-between;
+     padding: 0.5rem 1rem;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.btn-outline-warning {
+       background-color: transparent;
+    background-image: none;
+    border-color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+

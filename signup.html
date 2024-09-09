@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/sign.css">
+
+</head>
+
+<body cz-shortcut-listen="true">
+    <span class="d-none" id="username"></span>
+
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+
+            <input id="signupName" oninput="validationName()" class="form-control my-3" placeholder="Enter your name" type="text">
+            <input id="signupEmail" oninput="validationEmail()" class="form-control my-3" placeholder="Enter your email" type="email">
+
+            <input id="signupPassword" oninput=" validationPassword()" class="form-control my-3" placeholder="Enter  password" type="password">
+            <p id="exist" class="text-center d-none">  </p>
+
+            <button id="signbtn" onclick="signup()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="login.html">Signin</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./js/signup.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
